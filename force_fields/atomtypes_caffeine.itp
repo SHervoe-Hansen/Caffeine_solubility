@@ -1,0 +1,14 @@
+[ atomtypes ] 
+;CAFFEINE
+; name    at.num  mass     charge ptype  sigma [nm] epsilon [kJ/mol]
+C            6      12.01    0.0000  A   3.39967e-01  4.18e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - based on CHARMM parameters - CO group
+O            8      16.00    0.0000  A   3.03e-01     5.02e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - CO group
+CT           6      12.01    0.0000  A   3.39967e-01  4.18e-02          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - NA-CH3 group
+HC           1       1.008   0.0000  A   2.35e-01     9.2e-02           ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - H on CH3
+NA           7      14.01    0.0000  A   3.30e-01     8.36e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - N on aromatic ring
+NAM          7      14.01    0.0000  A   3.30e-01     8.36e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - N on aromatic ring + methylated
+CA           6      12.01    0.0000  A   3.39967e-01  3.14e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - C on aromatic ring
+CAR          6      12.01    0.0000  A   3.39967e-01  3.14e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - C on aromatic ring + connecting 5- and 6-member ring
+HA           1       1.008   0.0000  A   1.96e-01     1.92e-01          ; Tavagnacco JPCB 2011, 115, 10957 - dx.doi.org/10.1021/jp2021352 - H on CA
+
+

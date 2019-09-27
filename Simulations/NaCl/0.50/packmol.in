@@ -1,0 +1,26 @@
+
+tolerance 2.0
+filetype pdb
+output Caffeine_NaCl_sol.pdb
+add_box_sides 1.0
+
+structure ../../../PDB_files/single-caffeine-molecule.pdb
+        number 1
+        fixed 0. 0. 0. 0. 0. 0.
+        centerofmass
+end structure
+
+structure ../../../PDB_files/water.pdb
+        number 2760
+        inside cube 0. 0. 0. 45.
+end structure
+
+structure ../../../PDB_files/Na.pdb
+        number 27
+        inside cube 0. 0. 0. 45.
+end structure
+
+structure ../../../PDB_files/Cl.pdb
+        number 27
+        inside cube 0. 0. 0. 45.
+end structure

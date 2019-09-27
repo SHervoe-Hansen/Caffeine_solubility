@@ -1,0 +1,7 @@
+[ atomtypes ]
+; name    at.num  mass     charge ptype  sigma [nm] epsilon [kJ/mol]
+Na    11      22.99     1.000    A    0.2586      0.4184    ; our NMA paper JPCB 2010 114
+F      9      19.00    -1.000    A    0.3143      0.6999    ; Joe's F- J. Chem. Phys. 130, 134507 2009
+Cl    17      35.45    -1.000    A    0.4401      0.4184    ; NMA paper
+Br    17      35.45    -1.000    A    0.4538      0.4184    ; NMA paper
+I     53     127.45    -1.000    A    0.5149      0.4184    ; NMA paper
