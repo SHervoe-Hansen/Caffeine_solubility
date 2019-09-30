@@ -2,7 +2,7 @@
 ;   File Caffeine_NaCl_aqs.top  was generated
 ;   By user: hervoe (2027)
 ;   On host: aurora1
-;   At date: Thu. September  4 13:02:33 2019
+;   At date: Fri. September  5 10:42:02 2019
 ;
 ;   This is a standalone topology file
 ;
@@ -11,7 +11,7 @@
 ;   Executable:   ipykernel_launcher.py
 ;   Library dir:  /usr/local/gromacs/share/gromacs/top
 ;   Command line:
-;     /lunarc/nobackup/users/hervoe/software/miniconda3/lib/python3.6/site-packages/ipykernel_launcher.py -f /run/user/2027/jupyter/kernel-9716e50d-7063-4601-8012-de0627c4b372.json
+;     /lunarc/nobackup/users/hervoe/software/miniconda3/lib/python3.6/site-packages/ipykernel_launcher.py -f /run/user/2027/jupyter/kernel-f4028239-99fd-4b45-97c0-cc639625b06b.json
 ;
 
 [ defaults ]

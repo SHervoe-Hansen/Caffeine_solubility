@@ -18,7 +18,7 @@ system = init_conf.createSystem(nonbondedMethod=app.PME, ewaldErrorTolerance=0.0
                                                     
 # Positional restraints
 state = 'aqs'
-if state = 'iso':
+if state == 'iso':
     force = mm.CustomExternalForce("k*((x-x0)^2+(y-y0)^2+(z-z0)^2)")
     force.addGlobalParameter("k", 5.0*u.kilocalories_per_mole/u.angstroms**2)
     force.addPerParticleParameter("x0")
