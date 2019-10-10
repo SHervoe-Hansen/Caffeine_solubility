@@ -1,0 +1,19 @@
+
+[ moleculetype ]
+; Name   nrexcl
+  SCN    3
+
+[ atoms ]
+;  nr  type   resnr  resid  atom  cgnr  charge    mass      total_charge
+   1   scn-S  1      SCN    S     1    -0.5730    32.0650   ;
+   2   scn-C  1      SCN    C     2     0.4830    12.0110   ;
+   3   scn-N  1      SCN    N     3    -0.9100    14.0067   ;
+; total charge of the molecule:  -0.000
+[ bonds ]
+;  ai   aj  funct   c0         c1
+    1    2    1   0.1660   2.529295e+5          ; S-C bond
+    2    3    1   0.1190   9.985903e+5          ; C-N bond
+[ angles ]
+;  ai   aj   ak  funct   angle     fc
+    1    2    3    1    179.80   698.56         ; S-C-N angle
+

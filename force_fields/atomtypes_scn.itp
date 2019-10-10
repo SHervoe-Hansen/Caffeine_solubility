@@ -1,0 +1,7 @@
+[ atomtypes ] 
+;CAFFEINE
+; name      at.num    mass     charge  ptype  sigma [nm]     epsilon [kJ/mol]
+scn-S       16      32.06     -0.5730  A      3.83084e-01    1.522557          ; Tesei, JPCB 2018, 122(19), 5094-5105 - dx.doi.org/10.1021/acs.jpcb.8b02303 - KB derived parameters of thiocyanate anion
+scn-C        6      12.01      0.4830  A      3.34977e-01    4.25093e-01       ; Tesei, JPCB 2018, 122(19), 5094-5105 - dx.doi.org/10.1021/acs.jpcb.8b02303 - KB derived parameters of thiocyanate anion
+scn-N        7      14.01     -0.9100  A      3.69722e-01    3.10034e-01       ; Tesei, JPCB 2018, 122(19), 5094-5105 - dx.doi.org/10.1021/acs.jpcb.8b02303 - KB derived parameters of thiocyanate anion
+
