@@ -15,5 +15,4 @@
     2    3    1   0.1190   9.985903e+5          ; C-N bond
 [ angles ]
 ;  ai   aj   ak  funct   angle     fc
-    1    2    3    1    179.80   698.56         ; S-C-N angle
-
+    1    2    3    1    180.00   698.56         ; S-C-N angle (modified equilibrium angle originally 179.8)
