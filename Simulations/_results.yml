@@ -23,4 +23,10 @@ salts:
           mu: [-13.1589, -12.2245, -3.5014, 2.6377]
           error: [0.0725, 0.3254, 0.3624, 0.2802]
 
+  - label:    NaSCN
+    unit:     kcal/mol
+    color:    orange
+    conc:     [     0.0,]
+    muexcess: [-16.1233,]
+    error:    [  0.0250,]
 
