@@ -1,0 +1,46 @@
+salts:
+  - label:    KCl
+    unit:     kcal/mol
+    color:    darkgreen
+    conc:     [   0.000,    0.488,    0.962,    1.420,    1.863]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-16.1048, -15.9779, -15.8693, -15.6467, -15.5551]
+    error:    [  0.0282,   0.0499,   0.0849,   0.0706,   0.0911]
+    decomposition:
+        - conc: 1.0
+          mu:    [-15.8693, 0.9018, -2.3505, -14.4044]   # total, anion, cation, water
+          error: [  0.0849, 0.1783,  0.2538,   0.2545]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-15.5551, 1.8792, -4.2045, -13.2141]   # total, anion, cation, water
+          error: [  0.0911, 0.2658,  0.3659,   0.2906]   # total, anion, cation, water
+
+  - label:    KI
+    unit:     kcal/mol
+    color:    purple
+    conc:     [   0.000,    0.482,    0.940,    1.374,    1.786]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-16.1048, -16.1333, -16.1067, -16.0932, -16.1630]
+    error:    [  0.0282,   0.0401,   0.0623,   0.0703,   0.0779]
+    decomposition:
+        - conc: 1.0
+          mu:    [-16.1067, 0.5685, -2.2646, -14.3948]   # total, anion, cation, water
+          error: [  0.0623, 0.1882,  0.1789,   0.2520]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-16.1630, 1.3477, -4.2723, -13.2234]   # total, anion, cation, water
+          error: [  0.0779, 0.2056,  0.3173,   0.3203]   # total, anion, cation, water
+
+  - label:    KF
+    unit:     kcal/mol
+    color:    orange
+    conc:     [     0.0,    0.497,    0.994,    1.492,    1.987]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-16.1048, -15.9007, -15.5660, -15.1499, -14.7377]
+    error:    [  0.0282,   0.0428,   0.0992,   0.1017,   0.1257]
+    decomposition:
+        - conc: 1.0
+          mu:    [-15.5660, 1.2188, -2.1655, -14.6025]   # total, anion, cation, water
+          error: [  0.0992, 0.1362,  0.1938,   0.2235]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-14.7377, 2.7410, -3.9929, -13.4692]   # total, anion, cation, water
+          error: [  0.1257, 0.2090,  0.3098,   0.2401]   # total, anion, cation, water
+
