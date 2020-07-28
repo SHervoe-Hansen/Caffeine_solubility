@@ -7,7 +7,7 @@ This is supporting information for an unpublished scientific manuscript by _Herv
 ### Layout
 
 - `PDB_files` PDB files for various varients studied.
-- `Protein_solubility.ipynb` Jupyter notebook for submission and analysis of simulation and production of publication ready figures.
+- `Caffeine_solubility.ipynb` Jupyter notebook for submission and analysis of simulation and production of publication ready figures.
 
 ### Usage
 To open the notebook, install Python via [Miniconda](https://conda.io/miniconda.html) and make sure all required packages are loaded by issuing the following terminal commands
