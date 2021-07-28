@@ -1,6 +1,31 @@
 # Created by https://www.gitignore.io/api/vim,linux,macos,emacs,python,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=vim,linux,macos,emacs,python,jupyternotebooks
 
+# Project specific files
+Caffeine_*
+openMM_*
+packmol.in
+*.err
+*.psb
+*.xtc
+engsln*
+flcuv.tt
+weight_*
+uvrange.tt
+SltInfo
+parameters_er
+parameters_fe
+HISTORY
+MDinfo
+MolPrm*
+corref*
+engref*
+SltConf
+ermod.*
+*.top
+*.pbs
+.extraparam
+
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~
