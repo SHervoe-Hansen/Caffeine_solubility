@@ -1,0 +1,172 @@
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+Opening: "../trajectory_sol_full.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+Opening: "../trajectory_ref_full.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+Opening: "/home/hervoe/snic2020-6-15/hervoe/temp/Simulations/Solute_new/trajectory_solute.xtc"...
+  Trying plugin "Gromacs XTC Compressed Trajectory"...OK
+ 
+  Number of the   1-th solvent  =         1000
+ 
+  Be sure that the solvent distribution is homogeneous (radial distribution function is essentially unity) when the solvent molecule is separated beyond distance of   10.0 Angstrom in any direction from any atom within the solute molecule
+ 
+  LJ long-range correction    =        -0.9005
+ 
+  Self-energy of the solute   =        -0.0165  kcal/mol
+ 
+ 
+ cumulative average & 95% error for solvation energy
+  1   -59.5166
+  2   -59.3496     0.3339
+  3   -59.3659     0.1955
+  4   -59.3976     0.1521
+  5   -59.3741     0.1268
+  6   -59.3377     0.1265
+  7   -59.3512     0.1103
+  8   -59.3759     0.1075
+  9   -59.3803     0.0952
+ 10   -59.3722     0.0867
+ 11   -59.3730     0.0784
+ 12   -59.3476     0.0877
+ 13   -59.3611     0.0851
+ 14   -59.3685     0.0801
+ 15   -59.3636     0.0752
+ 16   -59.3642     0.0704
+ 17   -59.3500     0.0720
+ 18   -59.3384     0.0717
+ 19   -59.3385     0.0678
+ 20   -59.3368     0.0644
+ 21   -59.3384     0.0614
+ 22   -59.3280     0.0621
+ 23   -59.3308     0.0596
+ 24   -59.3353     0.0578
+ 25   -59.3259     0.0585
+ 
+ 
+ group  inft  solvation free energy     error          difference
+   1      0        -16.09315           0.02835           0.00977
+   1     60        -16.11996           0.02836          -0.01704
+   1     80        -16.41260           0.02847          -0.30968
+   1    100        -17.53105           0.02892          -1.42812
+   2      0        -16.09333           0.02806           0.00960
+   3      0        -16.10293           0.02822           0.00000
+   4      0        -16.08447           0.02776           0.01845
+   5      0        -16.08625           0.02843           0.01668
+   5     60        -16.12368           0.02844          -0.02076
+   5     80        -16.49337           0.02857          -0.39045
+   5    100        -17.52512           0.02896          -1.42219
+ 
+ 
+ group  inft   Estimated free energy (kcal/mol)
+   1      0     -16.1773     -16.0372     -16.1154     -16.1845     -16.0618
+                -16.0406     -16.1601     -16.2076     -16.1276     -16.0878
+                -16.0947     -15.9652     -16.1754     -16.1836     -16.0741
+                -16.0991     -15.9553     -16.0510     -16.0778     -16.1002
+                -16.0995     -15.9701     -16.1111     -16.1585     -16.0132
+   1     60     -16.2042     -16.0639     -16.1423     -16.2113     -16.0886
+                -16.0673     -16.1868     -16.2344     -16.1545     -16.1147
+                -16.1216     -15.9919     -16.2024     -16.2103     -16.1009
+                -16.1260     -15.9822     -16.0775     -16.1048     -16.1269
+                -16.1264     -15.9969     -16.1379     -16.1853     -16.0399
+   1     80     -16.4976     -16.3562     -16.4356     -16.5036     -16.3809
+                -16.3590     -16.4790     -16.5269     -16.4478     -16.4073
+                -16.4147     -16.2843     -16.4961     -16.5029     -16.3934
+                -16.4191     -16.2744     -16.3688     -16.3980     -16.4186
+                -16.4195     -16.2897     -16.4309     -16.4789     -16.3317
+   1    100     -17.6187     -17.4739     -17.5562     -17.6209     -17.4982
+                -17.4751     -17.5965     -17.6453     -17.5686     -17.5263
+                -17.5335     -17.4017     -17.6176     -17.6226     -17.5112
+                -17.5387     -17.3897     -17.4845     -17.5175     -17.5343
+                -17.5385     -17.4076     -17.5504     -17.6008     -17.4479
+   2      0     -16.1802     -16.0430     -16.1191     -16.1855     -16.0680
+                -16.0401     -16.1564     -16.2023     -16.1340     -16.0890
+                -16.0991     -15.9585     -16.1750     -16.1789     -16.0693
+                -16.0998     -15.9621     -16.0419     -16.0817     -16.0982
+                -16.0972     -15.9743     -16.1111     -16.1559     -16.0123
+   3      0     -16.1933     -16.0526     -16.1277     -16.1937     -16.0817
+                -16.0497     -16.1715     -16.2152     -16.1378     -16.1007
+                -16.1092     -15.9697     -16.1809     -16.1875     -16.0777
+                -16.1076     -15.9714     -16.0526     -16.0943     -16.1103
+                -16.1065     -15.9795     -16.1225     -16.1622     -16.0176
+   4      0     -16.1793     -16.0349     -16.1041     -16.1719     -16.0710
+                -16.0354     -16.1469     -16.1950     -16.1216     -16.0765
+                -16.0856     -15.9514     -16.1632     -16.1692     -16.0611
+                -16.0875     -15.9504     -16.0330     -16.0757     -16.0931
+                -16.0881     -15.9704     -16.1075     -16.1386     -16.0004
+   5      0     -16.1768     -16.0359     -16.1132     -16.1758     -16.0640
+                -16.0352     -16.1536     -16.2022     -16.1270     -16.0788
+                -16.0896     -15.9466     -16.1651     -16.1712     -16.0581
+                -16.0922     -15.9599     -16.0340     -16.0746     -16.0973
+                -16.0937     -15.9616     -16.1046     -16.1431     -16.0022
+   5     60     -16.2143     -16.0733     -16.1507     -16.2132     -16.1015
+                -16.0725     -16.1910     -16.2396     -16.1646     -16.1162
+                -16.1272     -15.9840     -16.2027     -16.2085     -16.0955
+                -16.1297     -15.9973     -16.0711     -16.1122     -16.1345
+                -16.1312     -15.9991     -16.1420     -16.1806     -16.0395
+   5     80     -16.5851     -16.4427     -16.5214     -16.5824     -16.4711
+                -16.4410     -16.5603     -16.6092     -16.5352     -16.4858
+                -16.4975     -16.3533     -16.5736     -16.5780     -16.4648
+                -16.4999     -16.3667     -16.4390     -16.4828     -16.5032
+                -16.5012     -16.3689     -16.5122     -16.5512     -16.4079
+   5    100     -17.6199     -17.4743     -17.5553     -17.6131     -17.5026
+                -17.4705     -17.5915     -17.6409     -17.5691     -17.5178
+                -17.5298     -17.3836     -17.6075     -17.6099     -17.4953
+                -17.5326     -17.3967     -17.4679     -17.5159     -17.5327
+                -17.5332     -17.4004     -17.5451     -17.5855     -17.4371
+ 
+ 
+ cumulative average & 95% error for solvation free energy
+  1   -16.1933
+  2   -16.1229     0.1408
+  3   -16.1245     0.0813
+  4   -16.1418     0.0671
+  5   -16.1298     0.0573
+  6   -16.1164     0.0539
+  7   -16.1243     0.0482
+  8   -16.1357     0.0475
+  9   -16.1359     0.0419
+ 10   -16.1324     0.0381
+ 11   -16.1303     0.0347
+ 12   -16.1169     0.0415
+ 13   -16.1218     0.0394
+ 14   -16.1265     0.0377
+ 15   -16.1232     0.0357
+ 16   -16.1223     0.0334
+ 17   -16.1134     0.0361
+ 18   -16.1100     0.0347
+ 19   -16.1092     0.0328
+ 20   -16.1092     0.0312
+ 21   -16.1091     0.0296
+ 22   -16.1032     0.0306
+ 23   -16.1041     0.0293
+ 24   -16.1065     0.0285
+ 25   -16.1029     0.0282
