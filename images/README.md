@@ -1,0 +1,16 @@
+## Layout
+- `ermod.png` Illustrative figure of the protocol for the calculation of solvation free energies using energy-representation theory.
+- `SetschenowCombined.pdf` Visulization of the solvation free energy of caffeine in various salts and salt concentrations and species decompositon of the solvation free energy.
+- `SolvationMultiplot.pdf` Visulization of the species decompositions for the solvation free energy at the various salt concentrations.
+- `CsCl_2.00M_CumChemPot.pdf` Visualization the cummulative solvation free energy as a function the energy coordinate for caffeine in ~2.00 M CsCl salt solution.
+- `ExcludedVolumeCorrelation.pdf` Visulization of the correlation between the excluded volume Setschenow coefficient and the Setschenow coefficient.
+- `ExcludedVolumeCorrelationDecomposition.pdf` Visulization of the species decompositon of the correlation between the excluded volume Setschenow coefficient and the Setschenow coefficient.
+- `ExcludedVolumeSizeCorrelation.pdf` Visulization of the correlation between the excluded volume Setschenow coefficient and particle size.
+- `SetschenowExcludedVolumeDecomposition.pdf` Visulization of the species decomposition of the excluded volume Setschenow coefficient.
+- `InteractionCorrelation.pdf` Visulization of the correlation between the interaction component Setschenow coefficient and the Setschenow coefficient.
+- `SetschenowInteractionDecomposition.pdf` Visulization of the species decomposition of the interaction component Setschenow coefficient.
+- `SetschenowMeanInteractionCorrelation.pdf` Visulization of the correlation between the mean interaction strength and the Setschenow coefficient.
+- `SetschenowMeanInteractionDecomposition.pdf` Visulization of the species decomposition of the mean interaction strength.
+- `KetoneRDF.pdf` Visulization of the radial distribution functions between the cations and oxygen of caffeine.
+- `MethylRDF.pdf` Visulization of the radial distribution functions between the anions and the methyl groups of caffeine.
+
