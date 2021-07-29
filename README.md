@@ -1,7 +1,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SHervoe-Hansen/Caffeine_solubility/Japan?filepath=Caffeine_solubility.ipynb)
 # Electronic Notebook: Anion-Cation Contrast of Caffeine Solvation in Salt Solutions
 
-This is supporting information for an unpublished scientific manuscript by _Hervø-Hansen et al._ on the solvation free energy of caffeine in various electrolyte solutions using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebook (`.ipynb`). For running the simulation we recommend you clone the repository, else the original dataset can be analyzed through the use of [Binder](https://mybinder.org), which will open the notebook in an executable environment and can be accessed [here](https://mybinder.org/v2/gh/SHervoe-Hansen/Caffeine_solubility/Japan?filepath=Caffeine_solubility.ipynb).
+This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (reference, doi) on the solvation free energy of caffeine in various electrolyte solutions using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). For running the simulation we recommend you clone the repository, else the original dataset can be analyzed through the use of [Binder](https://mybinder.org), which will open the notebook in an executable environment and can be accessed [here](https://mybinder.org/v2/gh/SHervoe-Hansen/Caffeine_solubility/Japan?).
 
 ### Layout
 - `PDB_files` PDB files for various chemical species utilized.
