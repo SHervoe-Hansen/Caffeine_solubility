@@ -37,29 +37,35 @@ https://bit.ly/32WHIXd # Towards data science.
     
     return ((meanSlope, stdSlope), (meanIntercept, stdIntercept))
 
-def getAvgVolume(filename, Nruns=25, volcolumn=4, returning='print'):
+def getAvgVolume(filename, Nruns=25, volcolumn=4, returning='print', stdout=False):
     '''Return the average volume from independent simulations in Ångstrom.
 The function will search in the folders /#run/filename
 ========
 Attributes:
 filename: String; filename out output.
 Nruns: Int; Number of independent runs.
-volcolumn: Ont; Index of the column containing volmetric data (starting index is 0).
+volcolumn: Int; Index of the column containing volmetric data (starting index is 0).
 returning: String; Option to return the result as a print statement or as a float.
            If `returning='print'` return is a print statement, if `returning='float'` return is a float.
+stdout: Bool; Option to also return the standard deviation of means.
 ========
 Return: Print statement or float depending on value of `returning`.
 ========
 '''
     import numpy as _np
-    volume_sum = 0
+    volumes = []
     for run in range(Nruns):
         volume = _np.loadtxt('{run}/{filename}'.format(run=run, filename=filename),
                              usecols=volcolumn, skiprows=1, unpack=True)
-        volume_sum += volume.mean()
+        volumes.append(volume.mean())
+    volumes = _np.asarray(volumes)
+    volumes = 1000 * volumes # convert from nm3 to Å3
     if returning == 'print':
-        print('{volume}'.format(volume=volume_sum/Nruns*1000))
+        print('{volume}'.format(volume=volumes.mean()))
     elif returning =='float':
-        return volume_sum/Nruns*1000
+        if stdout == True:
+            return (volumes.mean(), volumes.std())
+        else:
+            return volumes.mean()
     else:
         raise ValueError('Illegal value of `returning`.')
