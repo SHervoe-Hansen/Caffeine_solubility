@@ -17,6 +17,6 @@ This is supporting information for the scientific manuscript by _Hervø-Hansen e
 To open the notebook, install Python via [Miniconda](https://conda.io/miniconda.html) and make sure all required packages are loaded by issuing the following terminal commands
 ```bash
    conda env create -f environment.yml
-   conda activate openMM
+   conda activate caffeine
    jupyter-notebook
 ```
