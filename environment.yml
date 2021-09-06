@@ -1,16 +1,16 @@
-name: openMM
+name: caffeine
 channels:
   - omnia
   - conda-forge
   - defaults
 dependencies:
-  - openmm
-  - openmmtools
-  - parmed
-  - mdtraj
+  - python=3.7
+  - openmm=7.3
+  - openmmtools=0.20
+  - parmed=3.4
+  - mdtraj=1.9
   - numpy
   - scipy
   - packmol
   - jupyterlab
   - matplotlib
-
