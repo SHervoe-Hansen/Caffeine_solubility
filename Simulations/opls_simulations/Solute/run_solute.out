@@ -1,0 +1,9 @@
+Loading initial configuration and toplogy
+Creating OpenMM System
+Minimizing energy
+Equilibrating...
+Running dynamics! (NPT)
+Traceback (most recent call last):
+  File "openMM_solute.py", line 70, in <module>
+    '''.format(*forces['NonbondedForce'].getPMEParametersInContext(sim.context)))
+NameError: name 'forces' is not defined

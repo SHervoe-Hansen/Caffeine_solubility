@@ -1,0 +1,136 @@
+salts:
+  - label:    NaCl 
+    unit:     kcal/mol
+    color:    darkgreen
+    conc:     [   0.000,    0.490,    0.969,    1.435,    1.889]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.4622, -11.1386, -10.9456, -10.5919]
+    error:    [  0.0201,   0.0821,   0.1105,   0.0902,   0.1833]
+    decomposition:
+        - conc: 1.0
+          mu:    [-11.1386, 0.4925, -1.6711,  -9.9211]   # total, anion, cation, water
+          error: [  0.1105, 0.2490,  0.3625,   0.3115]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-10.5919, 1.1830, -2.2235,  -9.5135]   # total, anion, cation, water
+          error: [  0.1833, 0.3804,  0.3943,   0.2471]   # total, anion, cation, water
+
+  - label:    NaI # SIMULATION MISSING
+    unit:     kcal/mol
+    color:    purple 
+    conc:     [   0.000,    0.484,    0.944,    1.384,    1.803]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.5767, -11.4258, -11.3720, -11.4235]
+    error:    [  0.0201,   0.0765,   0.0912,   0.1343,   0.1380]
+    decomposition:
+       - conc: 1.0   
+         mu:    [-11.4258, -0.0035, -1.4436, -9.9407]   # total, anion, cation, water
+         error: [  0.0912,  0.2500,  0.3146,  0.3318]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [-11.4235, 0.4956, -2.8669,  -9.0159]   # total, anion, cation, water
+         error: [  0.1380, 0.3730,  0.3738,   0.3344]   # total, anion, cation, water
+
+  - label:    NaF 
+    unit:     kcal/mol
+    color:    orange
+    conc:     [   0.000,    0.500,    1.009,    1.525,    2.045]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.3324, -10.8984, -10.5233,  -9.9353]
+    error:    [  0.0201,   0.0984,   0.1584,   0.1939,   0.2198]
+    decomposition:
+       - conc: 1.0
+         mu:    [-10.8984, 0.8550, -1.6681, -10.0448]   # total, anion, cation, water
+         error: [  0.1584, 0.2235,  0.3098,   0.2433]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [ -9.9353, 1.8412, -2.9751,  -8.7602]   # total, anion, cation, water
+         error: [  0.2198, 0.3991,  0.4558,   0.2575]   # total, anion, cation, water
+
+  - label:    KCl
+    unit:     kcal/mol
+    color:    darkgreen
+    conc:     [   0.000,    0.487,    0.958,    1.412,    1.849]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.4069, -11.1057, -10.8708, -10.5433]
+    error:    [  0.0201,   0.0582,   0.0909,   0.0954,   0.1199]
+    decomposition:
+        - conc: 1.0
+          mu:    [-11.1057, 0.2792, -1.4405,  -9.9059]   # total, anion, cation, water
+          error: [  0.0909, 0.2929,  0.2962,   0.2436]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-10.5433, 0.9697, -2.2816,  -9.1942]   # total, anion, cation, water
+          error: [  0.1199, 0.2954,  0.4241,   0.2928]   # total, anion, cation, water
+
+  - label:    KI
+    unit:     kcal/mol
+    color:    purple
+    conc:     [   0.000,    0.481,    0.933,    1.360,    1.764]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.4715, -11.4399, -11.2802, -11.1962]
+    error:    [  0.0201,   0.0607,   0.0951,   0.0909,   0.1105]
+    decomposition:
+       - conc: 1.0
+         mu:    [-11.4399, 0.3242, -1.5785, -10.1481]   # total, anion, cation, water
+         error: [  0.0951, 0.2052,  0.3046,   0.2845]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [-11.1962, 1.1172, -2.6304,  -9.6475]   # total, anion, cation, water
+         error: [  0.1105, 0.3204,  0.3064,   0.2829]   # total, anion, cation, water
+
+  - label:    KF
+    unit:     kcal/mol
+    color:    orange
+    conc:     [     0.0,    0.497,    0.998,    1.500,    2.002]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.3094, -10.7392, -10.2302,  -9.9956]
+    error:    [  0.0201,   0.0895,   0.1285,   0.0996,   0.1788]
+    decomposition:
+       - conc: 1.0
+         mu:    [-10.7392, 0.7038, -1.5981,  -9.8049]   # total, anion, cation, water
+         error: [  0.1285, 0.2677,  0.2256,   0.2025]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [ -9.9956, 1.4552, -2.7204,  -8.6902]   # total, anion, cation, water
+         error: [  0.1788, 0.3592,  0.3645,   0.2216]   # total, anion, cation, water
+
+  - label:    CsCl
+    unit:     kcal/mol
+    color:    darkgreen
+    conc:     [   0.000,    0.483,    0.943,    1.384,    1.799]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.3829, -11.0664, -10.8323, -10.6897]
+    error:    [  0.0201,   0.0723,   0.0702,   0.0749,   0.1117]
+    decomposition:
+        - conc: 1.0
+          mu:    [-11.0664, 0.3477, -1.0902, -10.2860]   # total, anion, cation, water
+          error: [  0.0702, 0.1944,  0.2300,   0.1940]   # total, anion, cation, water
+        - conc: 2.0
+          mu:    [-10.6897, 0.5281, -1.9644,  -9.2172]   # total, anion, cation, water
+          error: [  0.1117, 0.2348,  0.3034,   0.2127]   # total, anion, cation, water
+
+  - label:    CsI
+    unit:     kcal/mol
+    color:    purple
+    conc:     [   0.000,    0.477,    0.919,    1.331,    1.714]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.5621, -11.4197, -11.2704, -11.2626]
+    error:    [  0.0201,   0.0622,   0.0704,   0.0998,   0.1019]
+    decomposition:
+       - conc: 1.0
+         mu:    [-11.4197, 0.2554, -1.1280, -10.5102]   # total, anion, cation, water
+         error: [  0.0704, 0.2291,  0.2270,   0.2491]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [-11.2626, 0.7227, -1.8065, -10.1445]   # total, anion, cation, water
+         error: [  0.1019, 0.2982,  0.3325,   0.2689]   # total, anion, cation, water
+
+  - label:    CsF
+    unit:     kcal/mol
+    color:    orange
+    conc:     [     0.0,    0.494,    0.983,    1.467,    1.945]
+    Nsalt:    [       0,        9,       18,       27,       36]
+    muexcess: [-11.5781, -11.2756, -10.9624, -10.4569, -10.0145]
+    error:    [  0.0201,   0.0855,   0.1087,   0.1227,   0.1811]
+    decomposition:
+       - conc: 1.0
+         mu:    [-10.9624, 0.3067, -1.1881, -10.0414]   # total, anion, cation, water
+         error: [  0.1087, 0.2764,  0.2764,   0.1628]   # total, anion, cation, water
+       - conc: 2.0
+         mu:    [-10.0145, 1.3822, -2.5886,  -8.7690]   # total, anion, cation, water
+         error: [  0.1811, 0.2875,  0.2096,   0.1884]   # total, anion, cation, water
+
