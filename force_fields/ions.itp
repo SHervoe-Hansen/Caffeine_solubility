@@ -50,6 +50,14 @@ K               1
 ; id    at type         res nr  residu name     at name  cg nr  charge
    1    K                   1        K              K      1    1.00000
 
+[ moleculetype ]
+; molname       nrexcl
+Cs              1
+
+[ atoms ]
+; id    at type         res nr  residu name     at name  cg nr  charge
+   1    Cs                  1        Cs             Cs     1    1.00000
+
 
 [ moleculetype ]
 ; molname       nrexcl
