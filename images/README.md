@@ -13,4 +13,4 @@
 - `SetschenowMeanInteractionDecomposition.pdf` Visulization of the species decomposition of the mean interaction strength.
 - `KetoneRDF.pdf` Visulization of the radial distribution functions between the cations and oxygen of caffeine.
 - `MethylRDF.pdf` Visulization of the radial distribution functions between the anions and the methyl groups of caffeine.
-
+- `opls_figures` Directory containing same figures as here however using the standardized OPLS force field.
