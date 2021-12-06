@@ -8,8 +8,9 @@ This is supporting information for the scientific manuscript by _Hervø-Hansen e
 - `Simulations` Directory containing raw ermod results and processed results. The directory is also used for location of trajectories and corresponding analysis upon reproduction.
 - `force_fields` Directory containing force parameters files (in gromacs format) for the various chemical species utilized.
 - `images` Directory containing publication ready figures and images imported in the Juypter notebooks.
-- `Simulations.ipynb` Jupyter notebook for running molecular dynamics simulations using OpenMM.
-- `Analysis.ipynb` Jupyter notebook for analysis of simulations and production of publication ready figures.
+- `Simulations.ipynb` Jupyter notebook for running molecular dynamics simulations using OpenMM for the KB and OPLS force fields.
+- `Analysis.ipynb` Jupyter notebook for analysis of simulations using the KB force field and production of publication ready figures.
+- `Analysis_OPLS.ipynb` Jupyter notebook for analysis of simulations using the OPLS force field and production of publication ready figures.
 - `Auxiliary.py` Python file containing assisting functions to conduct non-parametric bootstrapping and calculate mean volumes over multiple trajectories.
 - `environment.yml` Conda environment file to recreate the simulation environment. The environment most importantly contains Numpy, Scipy, OpenMM, OpenMMTools, parmed, mdtraj, and Packmol.
 
