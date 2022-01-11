@@ -1,58 +1,58 @@
 {
-   "title":"Electronic Notebook: Anion-Cation Contrast of Caffeine Solvation in Salt Solutions",
-   "description":"This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
-   "creators":[
-      {
-         "name":"Stefan Hervø-Hansen",
-         "affiliation":"Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
-         "orcid":"0000-0002-9629-9195"
-      }
-   ],
-   "contributors":[
-      {
-         "name":"Jan Heyda",
-         "type":"Researcher",
-         "orcid":"0000-0002-9428-9508",
-         "affiliation":"Department of Physical Chemistry, University of Chemistry and Technology, Prague, Czech Republic"
-      },
-      {
-         "name":"Mikael Lund",
-         "orcid":"0000-0001-8178-8175",
-         "type":"Researcher",
-         "affiliation":"Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden"
-      },
-      {
-         "name":"Nobuyuki Matubayasi",
-         "orcid":"0000-0001-7176-441X",
-         "type":"Researcher",
-         "affiliation":"Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
-      }
-   ],
-   "keywords":[
-      "reproducible science",
-      "electronic notebooks",
-      "chemistry",
-      "molecular dynamics",
-      "solvation",
-      "free energy calculations",
-      "energy representation theory",
-      "caffeine"
-   ],
-   "related_identifiers":[
-      {
-         "scheme":"url",
-         "identifier":"https://github.com/SHervoe-Hansen/Caffeine_solubility",
-         "relation":"isSupplementTo"
-      },
-      {
-         "scheme":"doi",
-         "identifier":"10.1039/D1CP04129K",
-         "relation":"isSupplementTo"
-      }
-   ],
-   "license":{
-      "id":"CC0-1.0"
-   },
-   "access_right":"open",
-   "upload_type":"software"
+  "title": "Electronic Notebook: Anion-Cation Contrast of Caffeine Solvation in Salt Solutions",
+  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "creators": [
+    {
+      "name": "Stefan Hervø-Hansen",
+      "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+      "orcid": "0000-0002-9629-9195"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jan Heyda",
+      "type": "Researcher",
+      "orcid": "0000-0002-9428-9508",
+      "affiliation": "Department of Physical Chemistry, University of Chemistry and Technology, Prague, Czech Republic"
+    },
+    {
+      "name": "Mikael Lund",
+      "orcid": "0000-0001-8178-8175",
+      "type": "Researcher",
+      "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden"
+    },
+    {
+      "name": "Nobuyuki Matubayasi",
+      "orcid": "0000-0001-7176-441X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    }
+  ],
+  "keywords": [
+    "reproducible science",
+    "electronic notebooks",
+    "chemistry",
+    "molecular dynamics",
+    "solvation",
+    "free energy calculations",
+    "energy representation theory",
+    "caffeine"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/SHervoe-Hansen/Caffeine_solubility",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1039/D1CP04129K",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "license": {
+    "id": "CC0-1.0"
+  },
+  "access_right": "open",
+  "upload_type": "software"
 }
