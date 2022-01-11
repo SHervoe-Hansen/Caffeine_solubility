@@ -5,12 +5,12 @@ channels:
   - defaults
 dependencies:
   - python=3.7
-  - openmm=7.3
+  - openmm=7.4
   - openmmtools=0.20
-  - parmed=3.4
+  - parmed=3.2
   - mdtraj=1.9
-  - numpy
-  - scipy
-  - packmol
-  - jupyterlab
-  - matplotlib
+  - numpy=1.17
+  - scipy=1.3
+  - packmol=18
+  - jupyterlab=1.1
+  - matplotlib=3.1
